@@ -1,0 +1,27 @@
+{
+  "doc": "Sample schema to help you get started.",
+  "fields": [
+    {
+      "doc": "Email del usuario",
+      "name": "email",
+      "type": "string"
+    },
+    {
+      "doc": "Indica si el usuario es nuevo",
+      "name": "isNew",
+      "type": "boolean"
+    },
+    {
+      "defaul": null,
+      "doc": "Mensaje del usuario",
+      "name": "message",
+      "type": [
+        "null",
+        "string"
+      ]
+    }
+  ],
+  "name": "sampleRecord",
+  "namespace": "com.mycorp.mynamespace",
+  "type": "record"
+}
